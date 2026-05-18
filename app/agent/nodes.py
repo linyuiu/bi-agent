@@ -17,6 +17,7 @@ llm = BaseChatOpenAI(
 
 def generate_sql(state):
     question = state["question"]
+
     prompt = f"""
     你是 BI 分析师。
     用户问题：
